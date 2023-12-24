@@ -1,9 +1,13 @@
-import { Github, Linkedin, Pencil, Twitter } from "lucide-react";
+import { Github, Linkedin, Mail, Pencil, Twitter } from "lucide-react";
 
 export const socials = [
     {
       icon: <Github/>,
       href: "https://github.com/narayan-raghuwanshi"
+    },
+    {
+      icon: <Mail />,
+      href: "mailto: narayan.raghu26@gmail.com"
     },
     {
       icon: <Linkedin />,
