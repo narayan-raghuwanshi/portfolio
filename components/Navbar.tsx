@@ -32,7 +32,7 @@ const Navbar = () => {
           {!open ? <Menu /> : <X />}
         </button>
       </div>
-      <div className={cn('flex flex-col md:hidden shadow-lg shadow-gray-400/15', open ? 'pb-4' : '')}>
+      <div className={cn('flex flex-col md:hidden shadow-lg shadow-gray-400/15')}>
         {(open) && navbarItems.map((item) => (
           <Link
             key={item.href}
