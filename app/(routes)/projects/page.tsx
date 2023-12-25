@@ -44,7 +44,7 @@ const ProjectsPage = () => {
               </div>
               <div className='max-w-[270px] mt-3 flex flex-wrap gap-2'>
                 {item.techUsed.map((tech)=>(
-                  <Badge variant={'outline'} className='text-gray-300 font-light py-0.5 px-2 border-gray-600'>{tech}</Badge>
+                  <Badge variant={'outline'} key={tech} className='text-gray-300 font-light py-0.5 px-2 border-gray-600'>{tech}</Badge>
                 ))}
               </div>
             </div>
