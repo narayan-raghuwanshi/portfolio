@@ -8,6 +8,14 @@ interface project {
 }
 export const projects: project[] = [
     {
+        title: 'Dashboard Necleo',
+        description: 'Full stack dashoard to manage projects',
+        image: '/necleodashboard.jpg',
+        repository: 'https://github.com/narayan-raghuwanshi/dashboard-necleo',
+        deployment: 'https://necleo.narayanraghuwanshi.one/',
+        techUsed: ['Nextjs', 'Prisma','Typesrcipt', 'Tailwind CSS', 'Reactjs','Clerk'],
+    },
+    {
         title: 'Managewise Replica',
         description: 'Landing page replica of a SaaS company',
         image: '/managewisereplica.jpg',
