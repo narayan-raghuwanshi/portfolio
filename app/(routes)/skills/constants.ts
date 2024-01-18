@@ -9,6 +9,8 @@ export const skills = [
   "Tailwind CSS",
   "ShadCN",
   "AWS EC2",
+  "AWS S3",
+  "AWS Lambda",
   "Docker",
   "postgreSQL",
   "Redis",
