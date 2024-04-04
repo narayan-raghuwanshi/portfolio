@@ -22,4 +22,6 @@ export const skills = [
   "Java",
   "HTML",
   "CSS",
+  "Github",
+  "D3.js"
 ];
