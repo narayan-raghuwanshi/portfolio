@@ -8,6 +8,21 @@ interface project {
 }
 export const projects: project[] = [
   {
+    title: "Video player with notes",
+    description: "A video player to play youtube videos with the feature to take notes at ant timestamp and seek to that time when clicking on the note.",
+    image: "/videoplayerwithnotes.png",
+    repository: "https://github.com/narayan-raghuwanshi/Video-Player-with-Notes",
+    deployment: "https://video-player-with-notes-pi.vercel.app/",
+    techUsed: [
+      "Nextjs",
+      "Typesrcipt",
+      "Tailwind CSS",
+      "Reactjs",
+      "Youtube API",
+      "Javascript"
+    ],
+  },
+  {
     title: "AWS Presigned URL",
     description: "React app to upload and download objects from s3 using presigned url.",
     image: "/presignedurl.png",
