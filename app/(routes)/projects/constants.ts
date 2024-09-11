@@ -8,6 +8,14 @@ interface project {
 }
 export const projects: project[] = [
   {
+    title: "Managewise Replica",
+    description: "Landing page replica of a SaaS company",
+    image: "/managewisereplica.jpg",
+    repository: "https://github.com/narayan-raghuwanshi/managewise-replica",
+    deployment: "https://managewise-replica-narayan-raghuwanshi.vercel.app/",
+    techUsed: ["Nextjs", "Typesrcipt", "Tailwind CSS", "Reactjs"],
+  },
+  {
     title: "Video player with notes",
     description: "A video player to play youtube videos with the feature to take notes.",
     image: "/videoplayerwithnotes.png",
@@ -36,29 +44,6 @@ export const projects: project[] = [
     ],
   },
   {
-    title: "Dashboard Necleo",
-    description: "Full stack dashoard to manage projects",
-    image: "/necleodashboard.jpg",
-    repository: "https://github.com/narayan-raghuwanshi/dashboard-necleo",
-    deployment: "https://necleo.narayanraghuwanshi.one/",
-    techUsed: [
-      "Nextjs",
-      "Prisma",
-      "Typesrcipt",
-      "Tailwind CSS",
-      "Reactjs",
-      "Clerk",
-    ],
-  },
-  {
-    title: "Managewise Replica",
-    description: "Landing page replica of a SaaS company",
-    image: "/managewisereplica.jpg",
-    repository: "https://github.com/narayan-raghuwanshi/managewise-replica",
-    deployment: "https://managewisereplica.narayanraghuwanshi.one/",
-    techUsed: ["Nextjs", "Typesrcipt", "Tailwind CSS", "Reactjs"],
-  },
-  {
     title: "Mail manager",
     description: "Automatically reply and add label to unread emails.",
     image: "/mailmanager.jpg",
@@ -83,26 +68,11 @@ export const projects: project[] = [
     ],
   },
   {
-    title: "Rarity",
-    description: "Request the books which are hard to find.",
-    image: "/rarity.jpg",
-    repository: "https://github.com/narayan-raghuwanshi/rarity",
-    deployment: "https://rarity.narayanraghuwanshi.one/",
-    techUsed: [
-      "Nextjs",
-      "Prisma",
-      "postgreSQL",
-      "Typesrcipt",
-      "Tailwind CSS",
-      "Reactjs",
-    ],
-  },
-  {
     title: "Redesign Andromeda",
     description: "Redesign Andromeda Surgical Website",
     image: "/andromeda.jpg",
     repository: "https://github.com/narayan-raghuwanshi/andromeda",
-    deployment: "https://redesignandromeda.narayanraghuwanshi.one/",
+    deployment: "https://andromeda-narayan-raghuwanshi.vercel.app/",
     techUsed: ["Nextjs", "Typesrcipt", "Emailjs", "Tailwind CSS", "Reactjs"],
   },
   {
@@ -110,7 +80,7 @@ export const projects: project[] = [
     description: "Admin dashboard to manage users",
     image: "/admindashboard.jpg",
     repository: "https://github.com/narayan-raghuwanshi/admin-dashboard",
-    deployment: "https://admindashboard.narayanraghuwanshi.one/",
+    deployment: "https://admin-dashboard-narayan-raghuwanshi.vercel.app/",
     techUsed: ["Nextjs", "Typesrcipt", "Tailwind CSS", "Reactjs"],
   },
 ];
