@@ -80,7 +80,7 @@ export const projects: project[] = [
     description: "Admin dashboard to manage users",
     image: "/admindashboard.jpg",
     repository: "https://github.com/narayan-raghuwanshi/admin-dashboard",
-    deployment: "https://admin-dashboard-narayan-raghuwanshi.vercel.app/",
+    deployment: "https://admin-dashboard-narayanraghuwanshis-projects.vercel.app/",
     techUsed: ["Nextjs", "Typesrcipt", "Tailwind CSS", "Reactjs"],
   },
 ];
