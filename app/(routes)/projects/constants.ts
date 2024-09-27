@@ -8,14 +8,6 @@ interface project {
 }
 export const projects: project[] = [
   {
-    title: "Managewise Replica",
-    description: "Landing page replica of a SaaS company",
-    image: "/managewisereplica.jpg",
-    repository: "https://github.com/narayan-raghuwanshi/managewise-replica",
-    deployment: "https://managewise-replica-narayan-raghuwanshi.vercel.app/",
-    techUsed: ["Nextjs", "Typesrcipt", "Tailwind CSS", "Reactjs"],
-  },
-  {
     title: "Video player with notes",
     description: "A video player to play youtube videos with the feature to take notes.",
     image: "/videoplayerwithnotes.png",
@@ -28,6 +20,14 @@ export const projects: project[] = [
       "Youtube API",
       "Javascript"
     ],
+  },
+  {
+    title: "Managewise Replica",
+    description: "Landing page replica of a SaaS company",
+    image: "/managewisereplica.jpg",
+    repository: "https://github.com/narayan-raghuwanshi/managewise-replica",
+    deployment: "https://managewise-replica.vercel.app/",
+    techUsed: ["Nextjs", "Typesrcipt", "Tailwind CSS", "Reactjs"],
   },
   {
     title: "AWS Presigned URL",
