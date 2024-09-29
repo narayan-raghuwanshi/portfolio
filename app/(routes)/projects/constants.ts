@@ -34,7 +34,7 @@ export const projects: project[] = [
     description: "React app to upload and download objects from s3 using presigned url.",
     image: "/presignedurl.png",
     repository: "https://github.com/narayan-raghuwanshi/presigned-url-s3.git",
-    deployment: "https://presigned-url-s3.vercel.app/",
+    deployment: "https://presigned-url-s3-git-master-narayanraghuwanshis-projects.vercel.app/",
     techUsed: [
       "AWS S3",
       "Nextjs",
