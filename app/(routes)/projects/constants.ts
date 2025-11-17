@@ -8,6 +8,21 @@ interface project {
 }
 export const projects: project[] = [
   {
+    title: "Chitgem",
+    description: "A UI built on the Gemini API using the Vercel AI SDK.",
+    image: "/chitgem.png",
+    repository: "https://github.com/narayan-raghuwanshi/chitgem",
+    deployment: "https://chitgem.vercel.app/",
+    techUsed: [
+      "Gemini API",
+      "Vercel AI SDK",
+      "Nextjs",
+      "Tailwind CSS",
+      "Reactjs",
+      "Javascript"
+    ],
+  },
+  {
     title: "Video player with notes",
     description: "A video player to play youtube videos with the feature to take notes.",
     image: "/videoplayerwithnotes.png",
